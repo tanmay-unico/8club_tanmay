@@ -90,6 +90,8 @@ flutter pub get
 # Mobile or desktop
 flutter run
 
+> The API works as-is on mobile and desktop builds; no extra setup is required in those environments.
+
 # Chrome (development only – see CORS note below)
 flutter run -d chrome \
   --web-browser-flag="--disable-web-security" \
@@ -103,16 +105,16 @@ flutter run -d chrome \
 ## Brownie Points (Optional Enhancements)
 
 ### UI/UX
-- ✅ Pursued pixel-perfect layout based on the supplied mocks (spacing, typography, colors).
-- ✅ Responsive handling when the keyboard opens (content reflows without overflow on both screens).
+- Pursued pixel-perfect layout based on the supplied mocks (spacing, typography, colors).
+- Responsive handling when the keyboard opens (content reflows without overflow on both screens).
 
 ### State Management
-- ✅ Riverpod (`StateNotifierProvider`, `FutureProvider`) powering both screens.
-- ✅ Dio wired into the provider tree for API calls.
+- Riverpod (`StateNotifierProvider`, `FutureProvider`) powering both screens.
+- Dio wired into the provider tree for API calls.
 
 ### Animations
-- ✅ Experience cards animate according to the mocks, tinting and scaling on selection.
-- ✅ Question screen “Next” button uses animated layout/width changes as media tiles appear/disappear.
+- Experience cards animate according to the mocks, tinting and scaling on selection.
+- Question screen “Next” button uses animated layout/width changes as media tiles appear/disappear.
 
 ---
 
