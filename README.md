@@ -1,12 +1,5 @@
 # Hotspot Host Onboarding
 
-Hi there, and thanks for checking out the project. This is the code I put together for the Hotspot Host onboarding flow. It walks new hosts through two screens: first they pick the experiences they want to offer, then they answer a longer-form question with either text, audio, or video. I tried to keep things close to the design mocks while still being comfortable to work with in day-to-day development.
-
-## Why Flutter and Quick Tech Notes
-
-I chose Flutter so I could cover iOS, Android, and the web in one codebase. Riverpod handles state because I lean on its testability and the way it keeps business logic tidy. Networking is done with Dio, and media capture/playback relies on `record`, `image_picker`, `audioplayers`, and `video_player`. Temporary files live in the platform caches and the notifiers clean them up when they are no longer needed.
-
-If you are poking around the codebase, the files worth opening first are:
 
 ```
 lib/
